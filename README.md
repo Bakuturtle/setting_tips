@@ -1,4 +1,4 @@
-#tmux
+# tmux
 ```bash
   set -g default-terminal 'screen-256color'
   set -g history-limit 1000
@@ -7,7 +7,7 @@
   set -g status-bg black
 ```
 
-#vim
+# vim
 ```bash
 
 set hlsearch
