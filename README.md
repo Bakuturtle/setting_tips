@@ -7,6 +7,7 @@
   set -g status-bg black
 ```
 
+
 # vim
 ```bash
 
