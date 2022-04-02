@@ -32,8 +32,8 @@ set tabstop=4
 ```
 
 # neovim
-'''bash
-    # tmux
+
+
 ```bash
   set -g default-terminal 'screen-256color'
   set -g history-limit 1000
@@ -67,7 +67,7 @@ set tabstop=4
 ```
 
 # neovim
-'''bash
+```bash
 set showmatch               
 set ignorecase              
 set hlsearch                
@@ -93,5 +93,4 @@ set clipboard=unnamedplus
   
 set ttyfast                 
 syntax on    
-'''
-
+```
