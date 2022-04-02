@@ -30,3 +30,48 @@ set softtabstop=4
 set tabstop=4
 
 ```
+
+# neovim
+'''bash
+    "etc setting
+    set showmatch               " show matching
+    set ignorecase              " case insensitive
+    set hlsearch                " highlight search
+    set incsearch               " incremental search
+
+    "tap
+    set tabstop=4               " number of columns occupied by a tab
+    set softtabstop=4           " see multiple spaces as tabstops so <BS> does the right thing
+    set expandtab               " converts tabs to white space
+    set shiftwidth=4            " width for autoindents
+    set smarttab
+
+    "indent
+    set autoindent              " indent a new line the same amount as the line just typed
+
+    "view
+    set number                  " add line numbers
+    set wildmode=longest,list   " get bash-like tab completions
+    "set cc=80                  " set an 80 column border for good coding style
+
+    "mouse setting
+    set mouse=a                 " enable mouse click
+    set mouse=v                 " middle-click paste with
+
+    "copy and paste
+    set clipboard=unnamedplus   " using system clipboard
+
+
+    ""set cursorline              " highlight current cursorline
+    set ttyfast                 " Speed up scrolling in Vim
+    " set spell                 " enable spell check (may need to download
+    " language package)
+    " " set noswapfile            " disable creating swap file
+    set backupdir=~/.cache/nvim " Directory to store backup files.
+
+    "on off
+    syntax on                   " syntax highlighting
+
+"filetype plugin indent on   "allow auto-indenting depending on file type
+"filetype plugin on
+'''
