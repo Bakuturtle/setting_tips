@@ -1,3 +1,9 @@
+* [tmux](#tmux)
+* [vim](#vim)
+* [neovim](#neovim)
+
+------------------
+
 # tmux
 ```bash
   set -g default-terminal 'screen-256color'
@@ -6,7 +12,7 @@
   set -g status-fg green
   set -g status-bg black
 ```
-
+-------------------
 
 # vim
 ```bash
@@ -30,8 +36,9 @@ set softtabstop=4
 set tabstop=4
 
 ```
+------
 
-# neovim
+#neovim
 ```bash
 set showmatch               
 set ignorecase              
