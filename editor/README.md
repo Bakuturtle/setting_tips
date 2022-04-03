@@ -38,7 +38,7 @@ set tabstop=4
 ```
 ------
 
-#neovim
+# neovim
 ```bash
 set showmatch               
 set ignorecase              
