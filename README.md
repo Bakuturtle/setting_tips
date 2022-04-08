@@ -4,7 +4,6 @@
 * Linux
     - terminal editor 
         + vim,neovim
-    - gcc 
     
 * Docker
     - install
